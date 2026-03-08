@@ -1,7 +1,13 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
-
+/**
+ * Clase base que representa un animal genérico del reino animal.
+ * Contiene los atributos y comportamientos fundamentales comunes a todos los animales.
+ *
+ * @author tu-nombre
+ * @version 1.0
+ */
 public class Animal {
-
+    /** Nombre del animal */
     private String nombre;
 
     void comer() {

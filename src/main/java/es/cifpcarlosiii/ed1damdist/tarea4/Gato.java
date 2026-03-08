@@ -1,7 +1,10 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
-
+/**
+ * Clase que representa un gato, hereda de Mamifero.
+ * Los gatos son mamíferos felinos, conocidos por su independencia y agilidad.
+ */
 public class Gato extends Mamifero {
-
+    /** Número de pelos del gato */
     private int pelos;
 
     @Override

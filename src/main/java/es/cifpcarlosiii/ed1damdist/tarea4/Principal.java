@@ -1,5 +1,8 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
-
+/**
+ * Clase principal que contiene el método main para ejecutar el programa.
+ * Demuestra la funcionalidad de las clases del reino animal.
+ */
 public class Principal {
 
     public static void main(String[] args) {

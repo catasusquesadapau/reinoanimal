@@ -1,5 +1,8 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
-
+/**
+ * Clase que representa un perro, hereda de Mamifero.
+ * Los perros son mamíferos domésticos conocidos por su lealtad y inteligencia.
+ */
 public class Perro extends Mamifero {
 
     @Override
