@@ -1,4 +1,4 @@
-package paqAnimales;
+package es.cifpcarlosiii.ed1damdist.tarea4;
 
 public class Perro extends Mamifero {
 
@@ -17,11 +17,7 @@ public class Perro extends Mamifero {
 
     @Override
     void relacionar(Animal p) {
-        System.out.println("Con el perro: " + p.nombre);
-    }
-
-    String ToString() {
-        return this.nombre;
+        System.out.println("Con el perro: " + p.ToString());
     }
 
 }

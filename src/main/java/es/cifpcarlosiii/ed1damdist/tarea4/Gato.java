@@ -1,8 +1,8 @@
-package paqAnimales;
+package es.cifpcarlosiii.ed1damdist.tarea4;
 
 public class Gato extends Mamifero {
 
-    public int pelos;
+    private int pelos;
 
     @Override
     void dormir() {
@@ -15,7 +15,14 @@ public class Gato extends Mamifero {
 
     @Override
     void relacionar(Animal p) {
-        System.out.println("Con el gato: " + p.nombre);
+        System.out.println("Con el gato: " + p.ToString());
     }
 
+    public int getPelos() {
+        return pelos;
+    }
+
+    public void setPelos(int pelos) {
+        this.pelos = pelos;
+    }
 }
