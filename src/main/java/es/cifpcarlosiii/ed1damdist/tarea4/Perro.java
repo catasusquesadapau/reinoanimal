@@ -1,5 +1,8 @@
-package paqAnimales;
-
+package es.cifpcarlosiii.ed1damdist.tarea4;
+/**
+ * Clase que representa un perro, hereda de Mamifero.
+ * Los perros son mamíferos domésticos conocidos por su lealtad y inteligencia.
+ */
 public class Perro extends Mamifero {
 
     @Override
@@ -17,11 +20,7 @@ public class Perro extends Mamifero {
 
     @Override
     void relacionar(Animal p) {
-        System.out.println("Con el perro: " + p.nombre);
-    }
-
-    String ToString() {
-        return this.nombre;
+        System.out.println("Con el perro: " + p.ToString());
     }
 
 }
